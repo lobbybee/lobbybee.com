@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LobbyBee - Coming Soon</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        :root {
+            --primary-yellow: #FFD700; /* A vibrant yellow */
+            --dark-charcoal: #1A1A1A;   /* A deep, almost black */
+            --light-gray: #f5f5f5;
+            --white: #FFFFFF;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--dark-charcoal);
+            color: var(--white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M28.868,99.999 L71.132,99.999 L99.999,50 L71.132,0 L28.868,0 L0,50 Z M33.868,94.999 L66.132,94.999 L90,50 L66.132,5 L33.868,5 L10,50 Z" fill-opacity="0.03" fill="%23FFD700"/></svg>');
+            background-repeat: repeat;
+            background-size: 150px 150px;
+            opacity: 0.5;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+        .logo-container img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 30px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            color: var(--primary-yellow);
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .highlight {
+            color: var(--primary-yellow);
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .logo-container img {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="logo.png" alt="LobbyBee Logo">
+        </div>
+        <h1>Coming Soon</h1>
+        <p>
+            Welcome to <span class="highlight">LobbyBee</span>, the future of hotel guest interaction.
+            We're busy building a platform to connect you with all your hotel's services directly through <span class="highlight">WhatsApp</span>.
+        </p>
+    </div>
+</body>
+</html>
