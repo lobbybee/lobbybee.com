@@ -6,6 +6,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
   css: ['~/assets/css/main.css'],
+  runtimeConfig: {
+    public: {
+      apiUrl:'http://127.0.0.1:8000',
+    },
+  },
   app: {
     head: {
       title: 'LobbyBee - WhatsApp-Native Hotel CRM',

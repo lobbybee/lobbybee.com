@@ -6,12 +6,19 @@
           <img src="/mascot.png" alt="LobbyBee Mascot" class="w-24 h-24 transform group-hover:scale-110 transition-transform duration-300">
         </div>
 
-        <div v-if="!verified">
+        <div v-if="!verified && email">
           <h1 class="text-4xl font-bold text-gray-800 mb-2">Almost there!</h1>
           <p class="text-gray-600 mb-8" v-if="hotelName">Just one more step to get <span class="font-semibold text-honey">{{ hotelName }}</span> buzzing.</p>
           <p class="text-gray-600 mb-8" v-else>Just one more step to get your hotel buzzing.</p>
           
-          <form @submit.prevent="verify">
+          <div v-if="successMessage" class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4" role="alert">
+            <span class="block sm:inline">{{ successMessage }}</span>
+          </div>
+          <div v-if="errorMessage" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
+            <span class="block sm:inline">{{ errorMessage }}</span>
+          </div>
+
+          <form @submit.prevent="verifyOTP">
             <div class="mb-6">
               <label for="verificationCode" class="block text-gray-700 text-sm font-semibold mb-3">Enter 6-Digit Verification Code</label>
               <input 
@@ -29,11 +36,11 @@
             </button>
           </form>
           <p class="text-center text-gray-500 mt-6 text-sm">
-            Didn't receive a code? <button @click="resendCode" class="text-honey font-semibold hover:underline focus:outline-none">Resend Code</button>
+            Didn't receive a code? <button @click="resendOTP" class="text-honey font-semibold hover:underline focus:outline-none">Resend Code</button>
           </p>
         </div>
 
-        <div v-else class="animate-fade-in">
+        <div v-else-if="verified && email">
           <div class="text-6xl mb-4 flex justify-center items-center text-center text-green-500">
             <svg class="w-24 h-24 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
           </div>
@@ -43,6 +50,11 @@
             Complete Your Profile
           </a>
         </div>
+        <div v-else>
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Invalid Verification Link</h1>
+            <p class="text-gray-600 mb-8">The verification link is missing necessary information. Please try registering again.</p>
+            <a href="/register" class="text-honey font-semibold hover:underline">Back to Registration</a>
+        </div>
       </div>
     </div>
   </div>
@@ -50,25 +62,64 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
+import { useRuntimeConfig } from '#app'
 
 const verificationCode = ref('')
 const verified = ref(false)
 const hotelName = ref('')
+const email = ref('')
+const successMessage = ref('')
+const errorMessage = ref('')
+
+const route = useRoute()
+const config = useRuntimeConfig()
+const apiUrl = config.public.apiUrl
 
 onMounted(() => {
   hotelName.value = localStorage.getItem('hotelName') || 'your hotel'
+  email.value = route.query.email || ''
 })
 
-const verify = () => {
-  // Mock verification logic
-  if (verificationCode.value.length === 6) {
+const verifyOTP = async () => {
+  errorMessage.value = ''
+  successMessage.value = ''
+  if (verificationCode.value.length !== 6) {
+    errorMessage.value = 'Please enter a 6-digit verification code.'
+    return
+  }
+  
+  const response = await useFetch(`${apiUrl}/user/verify-otp/`, {
+    method: 'POST',
+    body: {
+      email: email.value,
+      otp: verificationCode.value
+    }
+  })
+
+  if (response.data.value) {
     verified.value = true
+    successMessage.value = 'Verification successful!'
+  } else {
+    errorMessage.value = response.error.value?.data?.message || 'Invalid or expired OTP.'
   }
 }
 
-const resendCode = () => {
-  // Mock resend logic
-  alert('A new verification code has been sent to your email.')
+const resendOTP = async () => {
+  errorMessage.value = ''
+  successMessage.value = ''
+  const response = await useFetch(`${apiUrl}/user/resend-otp/`, {
+    method: 'POST',
+    body: {
+      email: email.value
+    }
+  })
+
+  if (response.data.value) {
+    successMessage.value = 'A new verification code has been sent to your email.'
+  } else {
+    errorMessage.value = response.error.value?.data?.message || 'Failed to resend OTP. Please try again.'
+  }
 }
 
 useHead({

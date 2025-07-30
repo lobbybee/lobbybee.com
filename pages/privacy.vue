@@ -151,30 +151,24 @@
           <div class="text-center mb-12">
             <h2 class="text-4xl font-bold text-gray-900 mb-4">🔐 LobbyBee Privacy Policy</h2>
             <p class="text-gray-600">
-              <strong>Effective Date:</strong> January 1, 2024<br>
-              <strong>Last Updated:</strong> January 1, 2024
+              <strong>Effective Date:</strong> 1 August 2025<br>
+              <strong>Last Updated:</strong> 1 August 2025
             </p>
           </div>
 
           <div class="space-y-8 text-gray-700">
-            <div>
-              <p class="mb-4">
-                LobbyBee Technologies Pvt Ltd ("LobbyBee", "we", "us", or "our") is committed to protecting the privacy of hotel partners, guests, and users of our services. This Privacy Policy outlines how we collect, use, store, and protect personal information in connection with our WhatsApp-native CRM platform and associated consultancy services.
-              </p>
-            </div>
+            <p>LobbyBee Technologies Pvt Ltd (“LobbyBee”, “we”, “us”, or “our”) is committed to protecting the privacy of hotel partners, guests, and users of our services. This Privacy Policy outlines how we collect, use, store, and protect personal information in connection with our WhatsApp-native CRM platform and associated consultancy services.</p>
 
             <div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">1. Scope of Policy</h3>
-              <p>
-                This Privacy Policy applies to all data collected through LobbyBee's platform, including guest interactions via WhatsApp, hotel dashboard usage, and internal service flows. It does not apply to third-party booking platforms or external services not operated by LobbyBee.
-              </p>
+              <p>This Privacy Policy applies to all data collected through LobbyBee’s platform, including guest interactions via WhatsApp, hotel dashboard usage, and internal service flows. It does not apply to third-party booking platforms or external services not operated by LobbyBee.</p>
             </div>
 
             <div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">2. Information We Collect</h3>
-              <p class="mb-4">We may collect the following categories of personal data:</p>
+              <p>We may collect the following categories of personal data:</p>
               <ul class="list-disc pl-6 space-y-2">
-                <li>Guest name, address, mobile number, and government-issued ID (during check-in)</li>
+                <li>Guest name, Address, mobile number, and government-issued ID (during check-in)</li>
                 <li>Hotel staff contact details for departmental routing</li>
                 <li>Internal guest ratings, preferences, and service history</li>
                 <li>Hotel registration details, including license and location</li>
@@ -184,22 +178,49 @@
 
             <div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">3. Purpose of Collection</h3>
-              <p class="mb-4">We collect and process personal data solely for the following purposes:</p>
+              <p>We collect and process personal data solely for the following purposes:</p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>To facilitate guest check-in, service requests, and feedback via WhatsApp</li>
                 <li>To route messages to appropriate hotel departments</li>
                 <li>To enable hotels to personalize guest experiences and manage rebookings</li>
                 <li>To maintain system integrity and improve platform performance</li>
                 <li>To comply with applicable legal and regulatory obligations</li>
-                <li>To identify and provide better service in present and future visits</li>
+                <li>To identify and provide to the customer better service in the present visit as well as in future</li>
               </ul>
             </div>
 
             <div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-4">4. Data Sharing and Disclosure</h3>
-              <p class="mb-4">
-                LobbyBee does not sell, rent, or share personal data with third parties. We do not allow access between hotels; each hotel operates within a fully isolated dashboard environment. Data may be disclosed only:
-              </p>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">4. Lawful Bases for Processing</h3>
+                <p>We process personal data based on the following lawful bases:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Contractual Necessity: To fulfill our obligations to hotels and guests, such as facilitating check-ins and service requests.</li>
+                    <li>Legitimate Interest: To improve service quality, ensure system security, and enhance user experience.</li>
+                    <li>Consent: For optional features like marketing communications or feedback surveys.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">5. Data Roles and Responsibilities</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Hotel: Data Controller</li>
+                    <li>LobbyBee: Data Processor</li>
+                    <li>WhatsApp Cloud API (Meta): Sub-Processor</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">6. Third-Party Integrations</h3>
+                <p>We may integrate with third-party services to enhance functionality. These include:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>WhatsApp Cloud API (Meta): For message delivery and encryption.</li>
+                    <li>Optional Integrations: Such as Google Sheets or analytics tools.</li>
+                </ul>
+                <p>Data residency complies with Meta’s EU/NA data centers.</p>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">7. Data Sharing and Disclosure</h3>
+              <p>LobbyBee does not sell, rent, or share personal data with third parties. We do not allow access between hotels; each hotel operates within a fully isolated dashboard environment. Data may be disclosed only:</p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>To the hotel where the guest is staying</li>
                 <li>To authorized LobbyBee personnel for system maintenance</li>
@@ -208,8 +229,8 @@
             </div>
 
             <div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-4">5. Data Security</h3>
-              <p class="mb-4">We implement reasonable technical and organizational safeguards to protect personal data, including:</p>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">8. Data Security</h3>
+              <p>We implement reasonable technical and organizational safeguards to protect personal data, including:</p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>End-to-end encryption of WhatsApp messages</li>
                 <li>Secure dashboard access with role-based permissions</li>
@@ -219,40 +240,36 @@
             </div>
 
             <div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-4">6. Guest Rights</h3>
-              <p class="mb-4">Guests may request:</p>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">9. Guest Rights</h3>
+              <p>Guests may request:</p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>Access to their personal data</li>
                 <li>Correction of inaccurate information</li>
                 <li>Deletion of data after checkout (subject to legal retention requirements)</li>
                 <li>Clarification on how their data is used</li>
               </ul>
-              <p>Requests can be submitted directly to LobbyBee at hello@lobbybee.com.</p>
+              <p>Requests can be submitted directly to LobbyBee at hello @lobbybee.com.</p>
             </div>
 
             <div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-4">7. Changes to This Policy</h3>
-              <p>
-                We may update this Privacy Policy from time to time. Any changes will be posted on our website with the updated effective date. Continued use of our services after such changes constitutes acceptance of the revised policy.
-              </p>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">10. International Compliance</h3>
+                <p>LobbyBee adheres to international data protection standards, including:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>GDPR (EU): General Data Protection Regulation</li>
+                    <li>DPDPA (India, 2023): Digital Personal Data Protection Act</li>
+                    <li>IT Act (India, 2000): For electronic records</li>
+                </ul>
             </div>
 
             <div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-4">8. Contact Us</h3>
-              <p>
-                For questions, concerns, or data-related requests, please contact:<br>
-                📧 <a href="mailto:hello@lobbybee.com" class="text-whatsapp hover:underline">hello@lobbybee.com</a>
-              </p>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">11. Changes to This Policy</h3>
+              <p>We may update this Privacy Policy from time to time. Any changes will be posted on our website with the updated effective date. Continued use of our services after such changes constitutes acceptance of the revised policy.</p>
             </div>
-          </div>
 
-          <div class="bg-whatsapp-light rounded-xl p-6 mt-12 text-center">
-            <p class="text-gray-700 mb-4">
-              <strong>Privacy Commitment PDF</strong> (coming soon)
-            </p>
-            <button class="btn-primary" disabled>
-              Download Privacy Commitment
-            </button>
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">12. Contact Us</h3>
+              <p>For questions, concerns, or data-related requests, please contact:  hello @lobbybee.com</p>
+            </div>
           </div>
         </div>
                       </DisclosurePanel>

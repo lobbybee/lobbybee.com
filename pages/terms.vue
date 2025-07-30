@@ -61,191 +61,72 @@
                <DisclosurePanel class="text-gray-500 mt-5">
                    <div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 lg:p-12 shadow-lg">
                             <div class="text-center mb-12">
-                              <h2 class="text-4xl font-bold text-gray-900 mb-4">📋 Terms & Conditions</h2>
+                              <h2 class="text-4xl font-bold text-gray-900 mb-4">📋 LobbyBee Terms & Conditions</h2>
                               <p class="text-gray-600">
-                                <strong>Effective Date:</strong> January 1, 2024<br>
-                                <strong>Last Updated:</strong> January 1, 2024
+                                <strong>Effective Date:</strong> 1 August 2025<br>
+                                <strong>Last Updated:</strong> 1 August 2025
                               </p>
                             </div>
 
                             <div class="prose prose-lg max-w-none text-gray-700 space-y-8">
                               <div>
-                                <p class="text-lg mb-6">
-                                  Welcome to LobbyBee! These Terms and Conditions ("Terms") govern your use of the LobbyBee WhatsApp-native CRM platform and related services provided by LobbyBee Technologies Pvt Ltd ("LobbyBee", "we", "us", or "our").
-                                </p>
-                                <p class="mb-4">
-                                  By accessing or using our services, you agree to be bound by these Terms. If you disagree with any part of these terms, please do not use our services.
-                                </p>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">1. Service Scope</h3>
+                                <p>LobbyBee.com provides CRM tools for hospitality businesses via Social Media messenger platforms. Hotels are responsible for lawful usage, guest consent, and compliance with platform and local regulations. Guest onboarding may include Social Media messenger numbers and other information required. All guest interactions are facilitated through LB Codes (LobbyBee Machine Readable Codes) or equivalent identifiers.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">1. Service Description</h3>
-                                <p class="mb-4">
-                                  LobbyBee provides a WhatsApp-native customer relationship management (CRM) platform specifically designed for hotels and hospitality businesses. Our services include:
-                                </p>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">2. Subscription & Billing</h3>
+                                <p>LobbyBee operates on monthly billing cycles with no lock-in contracts. Invoices are issued digitally, and payment is due within 7 days. Late payments may result in temporary suspension. LobbyBee is not liable for the accuracy of data collected from guests. Hotels must confirm and authenticate incoming data.</p>
+                              </div>
+                              <div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">3. Cancellation & Refunds</h3>
+                                <p>Hotels may cancel their subscription at any time with 7 days’ notice via the admin console. Guest flows and data access are disabled after the legal retention period ends. Refunds are issued only under the following conditions:</p>
                                 <ul class="list-disc pl-6 space-y-2 mb-4">
-                                  <li>WhatsApp-based guest communication and check-in processes</li>
-                                  <li>Department routing and internal messaging systems</li>
-                                  <li>Guest profile management and service history tracking</li>
-                                  <li>Automated messaging and workflow tools</li>
-                                  <li>Management dashboard and analytics</li>
-                                  <li>Implementation consulting and ongoing support</li>
+                                  <li>Cancellation occurs within 7 days of onboarding.</li>
+                                  <li>Verified technical failure prevents service usage.</li>
                                 </ul>
+                                <p>Refunds are not provided for partial usage or mid-cycle cancellations. Refunds are processed within 14 working days.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">2. Acceptable Use</h3>
-                                <p class="mb-4">You agree to use LobbyBee services only for lawful purposes and in accordance with these Terms. You must not:</p>
-                                <ul class="list-disc pl-6 space-y-2 mb-4">
-                                  <li>Use the platform to send spam, unsolicited messages, or promotional content to non-guests</li>
-                                  <li>Attempt to gain unauthorized access to other hotels' data or systems</li>
-                                  <li>Interfere with or disrupt the integrity or performance of our services</li>
-                                  <li>Use our services in violation of applicable laws or regulations</li>
-                                  <li>Share login credentials or allow unauthorized access to your account</li>
-                                  <li>Reverse engineer, modify, or create derivative works of our platform</li>
-                                </ul>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">4. Service Uptime & Support</h3>
+                                <p>Service uptime is dependent on third-party APIs (e.g., Social Media messenger platforms) and excludes scheduled maintenance. Support is available via Social Media messenger and email during business hours. Feature updates and bug fixes are rolled out periodically without prior notice.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">3. Data Responsibilities</h3>
-                                <div class="bg-blue-50 rounded-lg p-6 mb-4">
-                                  <h4 class="font-semibold text-gray-900 mb-3">Your Responsibilities:</h4>
-                                  <ul class="list-disc pl-6 space-y-2">
-                                    <li>Obtain proper consent from guests for data collection and processing</li>
-                                    <li>Comply with applicable data protection laws (GDPR, local privacy regulations)</li>
-                                    <li>Ensure accurate and up-to-date information in guest profiles</li>
-                                    <li>Maintain the confidentiality of guest information</li>
-                                  </ul>
-                                </div>
-                                <div class="bg-whatsapp-light rounded-lg p-6 mb-4">
-                                  <h4 class="font-semibold text-gray-900 mb-3">Our Responsibilities:</h4>
-                                  <ul class="list-disc pl-6 space-y-2">
-                                    <li>Secure data storage and transmission</li>
-                                    <li>Platform availability and performance</li>
-                                    <li>Regular security updates and monitoring</li>
-                                    <li>Compliance with our Privacy Policy commitments</li>
-                                  </ul>
-                                </div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">5. Messaging & Marketing</h3>
+                                <p>Hotels may send promotional messages only via LobbyBee.com’s platform. Opt-in flows and unsubscribe options are provided. Misuse, including spam, harassment, or unauthorized automation, may result in account suspension. Messaging must comply with platform norms and guest consent protocols.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">4. Service Availability</h3>
-                                <p class="mb-4">
-                                  We strive to maintain 99.9% uptime for our services. However, we do not guarantee uninterrupted service and may experience downtime for:
-                                </p>
-                                <ul class="list-disc pl-6 space-y-2 mb-4">
-                                  <li>Scheduled maintenance (with advance notice)</li>
-                                  <li>Emergency security updates</li>
-                                  <li>Third-party service disruptions (including WhatsApp Business API)</li>
-                                  <li>Force majeure events beyond our reasonable control</li>
-                                </ul>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">6. Data Ethics & Privacy</h3>
+                                <p>Guest data is collected only during active stays and used strictly for service delivery. LobbyBee does not engage in resale, cross-hotel access, or external tracking. Hotels retain full control over guest profiles, preferences, and internal notes. Guests must request data access, correction, or deletion directly via LobbyBee.com. LobbyBee monitors system health and may intervene in case of abuse or technical failure. LobbyBee HQ accesses data solely for system integrity or support purposes and never for marketing or analytics.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">5. Billing and Payment</h3>
-                                <p class="mb-4">
-                                  Subscription fees are billed according to your chosen plan. Payment terms include:
-                                </p>
-                                <ul class="list-disc pl-6 space-y-2 mb-4">
-                                  <li>Monthly or annual billing cycles as selected</li>
-                                  <li>Automatic renewal unless cancelled with 30 days notice</li>
-                                  <li>Pro-rated charges for mid-cycle upgrades</li>
-                                  <li>No refunds for partial months, except where legally required</li>
-                                  <li>Late payment fees may apply after 15 days past due</li>
-                                </ul>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">7. Legal Boundaries & Liability</h3>
+                                <p>Hotels are required to comply with local hospitality laws, including ID verification and data retention. LobbyBee is not liable for operational errors, staff miscommunication, or guest disputes. Jurisdiction for legal matters is the Courts of Kozhikode, Kerala. LobbyBee is not liable for the accuracy of guest data; hotels must verify and authenticate incoming data.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">6. Intellectual Property</h3>
-                                <p class="mb-4">
-                                  LobbyBee retains all rights to our platform, software, documentation, and related intellectual property. You retain ownership of your hotel and guest data. By using our services, you grant us a limited license to process your data solely for providing our services.
-                                </p>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">8. License Grant & Usage Restrictions</h3>
+                                <p>LobbyBee grants subscribing hotels a limited, non-exclusive, non-transferable license to access and use its CRM platform solely for lawful hospitality operations. This license does not permit resale, sublicensing, or unauthorized automation.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">7. Limitation of Liability</h3>
-                                <p class="mb-4">
-                                  To the maximum extent permitted by law, LobbyBee's liability is limited to the amount you paid for our services in the 12 months preceding the claim. We are not liable for:
-                                </p>
-                                <ul class="list-disc pl-6 space-y-2 mb-4">
-                                  <li>Indirect, incidental, or consequential damages</li>
-                                  <li>Loss of revenue, profits, or business opportunities</li>
-                                  <li>Data loss due to your failure to maintain backups</li>
-                                  <li>Third-party integrations or services beyond our control</li>
-                                </ul>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">9. Termination & Suspension</h3>
+                                <p>LobbyBee reserves the right to suspend or terminate access to its services in case of misuse, breach of platform norms, or failure to comply with applicable laws or payment obligations.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">8. Account Termination</h3>
-                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
-                                  <div class="bg-gray-50 rounded-lg p-4">
-                                    <h4 class="font-semibold text-gray-900 mb-2">You may terminate:</h4>
-                                    <ul class="text-sm space-y-1">
-                                      <li>• At any time with 30 days notice</li>
-                                      <li>• Via dashboard or email request</li>
-                                      <li>• Data export available for 90 days</li>
-                                    </ul>
-                                  </div>
-                                  <div class="bg-gray-50 rounded-lg p-4">
-                                    <h4 class="font-semibold text-gray-900 mb-2">We may terminate for:</h4>
-                                    <ul class="text-sm space-y-1">
-                                      <li>• Violation of these Terms</li>
-                                      <li>• Non-payment after 30 days</li>
-                                      <li>• Illegal or harmful activities</li>
-                                    </ul>
-                                  </div>
-                                </div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">10. Jurisdiction & Governing Law</h3>
+                                <p>This Agreement shall be governed by the laws of India. Any disputes shall fall under the exclusive jurisdiction of the Courts of Kozhikode, Kerala.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">9. Updates to Terms</h3>
-                                <p class="mb-4">
-                                  We may update these Terms periodically. Changes will be communicated via:
-                                </p>
-                                <ul class="list-disc pl-6 space-y-2 mb-4">
-                                  <li>Email notification to account administrators</li>
-                                  <li>In-dashboard announcements</li>
-                                  <li>Updated version posted on our website</li>
-                                </ul>
-                                <p class="mb-4">
-                                  Continued use of our services after changes constitutes acceptance of updated Terms.
-                                </p>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">11. Data Handling & Privacy</h3>
+                                <p>Hotels acknowledge that LobbyBee may process guest data solely for service delivery and system integrity. No data shall be sold, shared across properties, or used for marketing unless explicitly authorized.</p>
                               </div>
-
                               <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">10. Dispute Resolution</h3>
-                                <p class="mb-4">
-                                  Any disputes arising from these Terms will be resolved through:
-                                </p>
-                                <ol class="list-decimal pl-6 space-y-2 mb-4">
-                                  <li>Good faith negotiation between parties</li>
-                                  <li>Mediation if direct negotiation fails</li>
-                                  <li>Binding arbitration under Indian Arbitration Act, 2015</li>
-                                  <li>Courts of Mumbai, India for enforcement</li>
-                                </ol>
-                              </div>
-
-                              <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">11. Governing Law</h3>
-                                <p class="mb-4">
-                                  These Terms are governed by the laws of India. Any legal proceedings will be conducted in English and subject to the jurisdiction of Mumbai courts.
-                                </p>
-                              </div>
-
-                              <div>
-                                <h3 class="text-2xl font-bold text-gray-900 mb-4">12. Contact Information</h3>
-                                <p>
-                                  For questions about these Terms, please contact us at:<br>
-                                  📧 <a href="mailto:hello@lobbybee.com" class="text-whatsapp hover:underline">hello@lobbybee.com</a><br>
-                                  🏢 LobbyBee Technologies Pvt Ltd<br>
-                                  📍 Mumbai, India
-                                </p>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-4">12. Subscription & Auto-Renewal</h3>
+                                <p>LobbyBee subscriptions renew automatically unless cancelled via the admin console with 7 days’ notice prior to the renewal date.</p>
                               </div>
                             </div>
 
                             <div class="bg-whatsapp-light rounded-xl p-6 mt-12 text-center">
                               <p class="text-gray-700 mb-4">
-                                <strong>Last Updated:</strong> January 1, 2024
+                                <strong>Last Updated:</strong> 1 August 2025
                               </p>
                               <p class="text-sm text-gray-600">
                                 By using LobbyBee services, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
