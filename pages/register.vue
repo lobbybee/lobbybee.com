@@ -64,7 +64,7 @@
           </button>
         </form>
       </div>
-      <p class="text-center text-gray-600 mt-6">Already have an account? <a href="/login" class="text-honey font-semibold hover:underline">Log in here</a>.</p>
+      <p class="text-center text-gray-600 mt-6">Already have an account? <a href="https://hotel.lobbybee.com" class="text-honey font-semibold hover:underline">Log in here</a>.</p>
     </div>
   </div>
 </template>

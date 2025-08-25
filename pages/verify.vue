@@ -10,7 +10,7 @@
           <h1 class="text-4xl font-bold text-gray-800 mb-2">Almost there!</h1>
           <p class="text-gray-600 mb-8" v-if="hotelName">Just one more step to get <span class="font-semibold text-honey">{{ hotelName }}</span> buzzing.</p>
           <p class="text-gray-600 mb-8" v-else>Just one more step to get your hotel buzzing.</p>
-          
+
           <div v-if="successMessage" class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4" role="alert">
             <span class="block sm:inline">{{ successMessage }}</span>
           </div>
@@ -21,11 +21,11 @@
           <form @submit.prevent="verifyOTP">
             <div class="mb-6">
               <label for="verificationCode" class="block text-gray-700 text-sm font-semibold mb-3">Enter 6-Digit Verification Code</label>
-              <input 
-                type="text" 
-                id="verificationCode" 
-                v-model="verificationCode" 
-                class="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:outline-none focus:border-honey transition-colors duration-300 text-center tracking-[1em] text-2xl font-bold bg-gray-50" 
+              <input
+                type="text"
+                id="verificationCode"
+                v-model="verificationCode"
+                class="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:outline-none focus:border-honey transition-colors duration-300 text-center tracking-[1em] text-2xl font-bold bg-gray-50"
                 placeholder="______"
                 maxlength="6"
               >
@@ -46,7 +46,7 @@
           </div>
           <h1 class="text-4xl font-bold text-gray-800 mb-4">Verification Complete!</h1>
           <p class="text-gray-600 mb-8">Welcome aboard, <span class="font-semibold text-honey">{{ hotelName }}</span>! You're all set to connect with your guests.</p>
-          <a href="/dashboard" class="bg-honey hover:bg-honey-dark text-white font-bold py-3 px-10 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-lg inline-block">
+          <a href="https://hotel.lobbybee.com" class="bg-honey hover:bg-honey-dark text-white font-bold py-3 px-10 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-lg inline-block">
             Complete Your Profile
           </a>
         </div>
@@ -88,7 +88,7 @@ const verifyOTP = async () => {
     errorMessage.value = 'Please enter a 6-digit verification code.'
     return
   }
-  
+
   const response = await useFetch(`${apiUrl}/user/verify-otp/`, {
     method: 'POST',
     body: {

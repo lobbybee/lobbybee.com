@@ -18,14 +18,14 @@
                 <PlayIcon class="w-5 h-5" />
                 Try a Demo
               </button>
-              <button class="bg-white border-2 border-honey text-honey hover:bg-honey hover:text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base flex items-center justify-center gap-2 w-full sm:w-auto">
+              <NuxtLink to="/register" class="bg-white border-2 border-honey text-honey hover:bg-honey hover:text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base flex items-center justify-center gap-2 w-full sm:w-auto">
                 <BuildingOfficeIcon class="w-5 h-5" />
                 Onboard Your Hotel
-              </button>
-              <button class="bg-white border-2 border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base backdrop-blur-sm flex items-center justify-center gap-2 w-full sm:w-auto">
+              </NuxtLink>
+              <NuxtLink to="/contact" class="bg-white border-2 border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400 font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base backdrop-blur-sm flex items-center justify-center gap-2 w-full sm:w-auto">
                 <span class="text-xl">🐝</span>
                 Meet the Bee
-              </button>
+              </NuxtLink>
             </div>
           </div>
           <div class="animate-fade-in">
