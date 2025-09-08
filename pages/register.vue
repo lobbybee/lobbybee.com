@@ -107,7 +107,7 @@ const suggestUsernames = async () => {
   if (!formData.value.hotel_name) {
     return;
   }
-  const response = await useFetch(`${apiUrl}/user/username-suggestions/?hotel_name=${formData.value.hotel_name}`)
+  const response = await useFetch(`${apiUrl}/username-suggestions/?hotel_name=${formData.value.hotel_name}`)
   if (response.data.value && response.data.value.suggestions.length > 0) {
     usernameSuggestions.value = response.data.value.suggestions
     formData.value.username = usernameSuggestions.value[0]
