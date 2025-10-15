@@ -248,6 +248,23 @@
       </div>
     </section>
 
+    <!-- Legal Details -->
+    <section class="section-padding bg-gray-50">
+        <div class="container-max">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900">Legal Details</h2>
+            </div>
+            <div class="max-w-4xl mx-auto bg-white rounded-xl p-8 shadow-md">
+                <div class="space-y-5 text-lg text-gray-800">
+                    <p><strong class="font-semibold">LEGAL NAME:</strong> NIYAZUDDEEN AHMED</p>
+                    <p><strong class="font-semibold">TRADE NAME:</strong> Lobbybee Guest Services</p>
+                    <p><strong class="font-semibold">ADDRESS:</strong> GROUND FLOOR, 13/1/A, LIBERTY CENTER, VIDYANAGAR, NEAR EDGE, BC ROAD, VIDYANAGAR, KASARGOD-671123, KERALA.</p>
+                    <p><strong class="font-semibold">Phone:</strong> <a href="tel:+919400408414" class="text-whatsapp hover:text-whatsapp-dark font-medium">+91 94004 08414</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer Links -->
     <section class="section-padding bg-white">
       <div class="container-max text-center">
