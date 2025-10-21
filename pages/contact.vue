@@ -4,17 +4,17 @@
     <section class="section-padding bg-gradient-to-br from-whatsapp-light via-white to-honey-light">
       <div class="container-max text-center">
         <h1 class="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-          Let's bring the <span class="text-whatsapp">buzz</span> 
+          Let's bring the <span class="text-whatsapp">buzz</span>
           <br>to your hotel.
         </h1>
         <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
           Ready to transform your guest experience? Get in touch with our team and discover how LobbyBee can revolutionize your hotel operations.
         </p>
-        
+
         <!-- WhatsApp Demo Button -->
         <div class="mb-12">
-          <a 
-            href="https://wa.me/your-number" 
+          <a
+            href="https://wa.me/your-number"
             target="_blank"
             class="inline-flex items-center bg-whatsapp hover:bg-whatsapp-dark text-white font-semibold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl text-lg"
           >
@@ -31,7 +31,7 @@
     <section class="section-padding bg-white">
       <div class="container-max">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          
+
           <!-- Contact Form -->
           <div>
             <h2 class="text-3xl font-bold text-gray-900 mb-8">Send us a message</h2>
@@ -50,7 +50,7 @@
                     placeholder="Your hotel name"
                   >
                 </div>
-                
+
                 <div>
                   <label for="location" class="block text-sm font-medium text-gray-700  mb-2">
                     City & Country *
@@ -142,7 +142,7 @@
           <!-- Contact Information -->
           <div>
             <h2 class="text-3xl font-bold text-gray-900 mb-8">Get in touch</h2>
-            
+
             <!-- Direct Email -->
             <div class="card mb-8">
               <div class="flex items-center space-x-4">
@@ -256,8 +256,11 @@
             </div>
             <div class="max-w-4xl mx-auto bg-white rounded-xl p-8 shadow-md">
                 <div class="space-y-5 text-lg text-gray-800">
-                    <p><strong class="font-semibold">LEGAL NAME:</strong> NIYAZUDDEEN AHMED</p>
-                    <p><strong class="font-semibold">TRADE NAME:</strong> Lobbybee Guest Services</p>
+                    <p><strong class="font-semibold">BUSINESS NAME:</strong>LOBBYBEE</p>
+                    <p><strong class="font-semibold">Tax ID:</strong>
+
+                        UDYAM-KL-05-0034634
+                    </p>
                     <p><strong class="font-semibold">ADDRESS:</strong> GROUND FLOOR, 13/1/A, LIBERTY CENTER, VIDYANAGAR, NEAR EDGE, BC ROAD, VIDYANAGAR, KASARGOD-671123, KERALA.</p>
                     <p><strong class="font-semibold">Phone:</strong> <a href="tel:+919400408414" class="text-whatsapp hover:text-whatsapp-dark font-medium">+91 94004 08414</a></p>
                 </div>
@@ -284,7 +287,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { 
+import {
   EnvelopeIcon,
   ClockIcon,
   VideoCameraIcon,
@@ -335,10 +338,10 @@ const faqs = [
 
 const submitForm = async () => {
   isSubmitting.value = true
-  
+
   // Simulate form submission
   await new Promise(resolve => setTimeout(resolve, 2000))
-  
+
   // Reset form and show success
   form.value = {
     hotelName: '',
@@ -347,10 +350,10 @@ const submitForm = async () => {
     email: '',
     message: ''
   }
-  
+
   isSubmitting.value = false
   showSuccess.value = true
-  
+
   // Hide success message after 5 seconds
   setTimeout(() => {
     showSuccess.value = false
