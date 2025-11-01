@@ -17,7 +17,42 @@
     <section class="section-padding bg-white">
       <div class="container-max">
         <div class="space-y-20">
+            <!-- Guest Check-In -->
+                <div class="bg-gray-50 rounded-3xl p-8 lg:p-12">
+                  <div class="text-center mb-12">
+                    <div class="flex items-center justify-center mb-6">
+                      <BellIcon class="w-10 h-10 mr-4 text-blue-600" />
+                      <h2 class="text-3xl font-bold text-gray-900">Seamless Guest Check-In</h2>
+                    </div>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                      Transform the traditional check-in process into a modern, efficient experience that guests love.
+                    </p>
+                  </div>
 
+                  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                      <div class="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl shadow-lg">
+                        <QrCodeIcon class="w-8 h-8 text-gray-700" />
+                      </div>
+                      <h3 class="font-semibold mb-2">1. QR Scan</h3>
+                      <p class="text-gray-600 text-sm">Guest scans QR code and instantly connects via WhatsApp</p>
+                    </div>
+                    <div class="text-center">
+                      <div class="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl shadow-lg">
+                        <DocumentIcon class="w-8 h-8 text-gray-700" />
+                      </div>
+                      <h3 class="font-semibold mb-2">2. ID Upload</h3>
+                      <p class="text-gray-600 text-sm">Simple photo upload of identification document</p>
+                    </div>
+                    <div class="text-center">
+                      <div class="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl shadow-lg">
+                        <HomeIcon class="w-8 h-8 text-gray-700" />
+                      </div>
+                      <h3 class="font-semibold mb-2">3. Welcome Message</h3>
+                      <p class="text-gray-600 text-sm">Room assigned via dashboard, welcome message + WhatsApp menu sent</p>
+                    </div>
+                  </div>
+                </div>
           <!-- WhatsApp-Native CRM -->
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -149,42 +184,7 @@
             </div>
           </div>
 
-          <!-- Guest Check-In -->
-          <div class="bg-gray-50 rounded-3xl p-8 lg:p-12">
-            <div class="text-center mb-12">
-              <div class="flex items-center justify-center mb-6">
-                <BellIcon class="w-10 h-10 mr-4 text-blue-600" />
-                <h2 class="text-3xl font-bold text-gray-900">Seamless Guest Check-In</h2>
-              </div>
-              <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                Transform the traditional check-in process into a modern, efficient experience that guests love.
-              </p>
-            </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div class="text-center">
-                <div class="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl shadow-lg">
-                  <QrCodeIcon class="w-8 h-8 text-gray-700" />
-                </div>
-                <h3 class="font-semibold mb-2">1. QR Scan</h3>
-                <p class="text-gray-600 text-sm">Guest scans QR code and instantly connects via WhatsApp</p>
-              </div>
-              <div class="text-center">
-                <div class="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl shadow-lg">
-                  <DocumentIcon class="w-8 h-8 text-gray-700" />
-                </div>
-                <h3 class="font-semibold mb-2">2. ID Upload</h3>
-                <p class="text-gray-600 text-sm">Simple photo upload of identification document</p>
-              </div>
-              <div class="text-center">
-                <div class="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl shadow-lg">
-                  <HomeIcon class="w-8 h-8 text-gray-700" />
-                </div>
-                <h3 class="font-semibold mb-2">3. Welcome Message</h3>
-                <p class="text-gray-600 text-sm">Room assigned via dashboard, welcome message + WhatsApp menu sent</p>
-              </div>
-            </div>
-          </div>
 
           <!-- Automation Toolkit -->
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
