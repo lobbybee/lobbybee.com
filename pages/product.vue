@@ -20,7 +20,7 @@
             <!-- Guest Check-In -->
                 <div class="bg-gray-50 rounded-3xl p-8 lg:p-12">
                   <div class="text-center mb-12">
-                    <div class="flex items-center justify-center mb-6">
+                    <div class="flex items-center justify-center mb-6 flex-wrap flex-col md:flex-row">
                       <BellIcon class="w-10 h-10 mr-4 text-blue-600" />
                       <h2 class="text-3xl font-bold text-gray-900">Seamless Guest Check-In</h2>
                     </div>
