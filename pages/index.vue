@@ -14,10 +14,10 @@
               LobbyBee simplifies guest check-in, service requests, and internal routing — all through one familiar tool: <strong>WhatsApp</strong>.
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
-              <button class="bg-whatsapp hover:bg-whatsapp-dark text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base border-2 border-transparent hover:border-whatsapp-light flex items-center justify-center gap-2 w-full sm:w-auto">
+              <a href="https://wa.me/919400408414?text=%2Fdemo" target="_blank" class="bg-whatsapp hover:bg-whatsapp-dark text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base border-2 border-transparent hover:border-whatsapp-light flex items-center justify-center gap-2 w-full sm:w-auto">
                 <PlayIcon class="w-5 h-5" />
                 Try a Demo
-              </button>
+              </a>
               <NuxtLink to="/register" class="bg-white border-2 border-honey text-honey hover:bg-honey hover:text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base flex items-center justify-center gap-2 w-full sm:w-auto">
                 <BuildingOfficeIcon class="w-5 h-5" />
                 Onboard Your Hotel
@@ -99,10 +99,10 @@
             Join hotels worldwide who've simplified their guest experience through WhatsApp.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <button class="bg-white text-whatsapp hover:bg-gray-50 font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base border-2 border-transparent hover:border-white/20 flex items-center justify-center gap-2 w-full sm:w-auto">
+            <a href="https://wa.me/919400408414?text=%2Fdemo" target="_blank" class="bg-white text-whatsapp hover:bg-gray-50 font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base border-2 border-transparent hover:border-white/20 flex items-center justify-center gap-2 w-full sm:w-auto">
               <PlayIcon class="w-5 h-5" />
               Start Free Demo
-            </button>
+            </a>
             <button class="border-2 border-white text-white hover:bg-white hover:text-whatsapp font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-base backdrop-blur-sm flex items-center justify-center gap-2 w-full sm:w-auto">
               <CalendarDaysIcon class="w-5 h-5" />
               Schedule Consultation
